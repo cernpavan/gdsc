@@ -1,0 +1,67 @@
+.add {
+    width: 70%;
+    margin-left: -300px; /* Set left margin to 5 pixels */
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add form {
+    gap: 20px;
+    margin-bottom: 30px; /* Add space below the form */
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headers {
+    text-align: center;
+    color: rgb(24, 24, 108);
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+.add-subadmin-name,
+.add-subadmin-employeeId,
+.add-subadmin-username,
+.add-subadmin-password,
+.add-subadmin-hostelType,
+.add-subadmin-hostel,
+.add-subadmin-phoneNumber,
+.add-subadmin-gmail {
+    width: max(40%, 280px);
+}
+
+.add-subadmin-name input,
+.add-subadmin-employeeId input,
+.add-subadmin-username input,
+.add-subadmin-password input,
+.add-subadmin-hostelType input,
+.add-subadmin-hostel input,
+.add-subadmin-phoneNumber input,
+.add-subadmin-gmail input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.add-subadmin-name input:focus {
+    background-color: #f0f0f0; /* Light gray when focused */
+    border-color: #4a4a4a; /* Darker border color */
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
